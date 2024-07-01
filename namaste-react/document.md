@@ -317,7 +317,7 @@ tags: Learnings
 
 * parent have state to maintain child 
 * state is an object that keeps track of variable changes in components.
-* ifting state up occurs when state is placed in a common ancestor (or parent) of child components. Because each child component has access to the parent they will then have access to state. If state is updated inside the child component it is lifted back up to the parent container.
+* lifting state up occurs when state is placed in a common ancestor (or parent) of child components. Because each child component has access to the parent they will then have access to state. If state is updated inside the child component it is lifted back up to the parent container.
 **Reference**
 * [props drilling and lifting state up](https://medium.com/@kristinethejohnson/lifting-state-up-prop-drilling-in-react-3ef3367fca7a).
   
@@ -390,7 +390,7 @@ export default Instamart;
 * Where you need data in all across the component 
 * react context like a central place where keep data
 * context is like a useState for hole big application, use context where you wish too.it's like a data store.
-* any componenthave access to contex and they can mdify it.
+* any component have access to contex and they can mdify it.
 **inside class component**
   ```javaScript
   <UserContext.Consumer>
